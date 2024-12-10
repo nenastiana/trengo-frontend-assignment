@@ -1,7 +1,9 @@
 <template>
-  <HelloWorld />
+  <div class="bg-gray-50">
+    <SidebarComponent />
+  </div>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import SidebarComponent from "./components/SidebarComponent.vue";
 </script>

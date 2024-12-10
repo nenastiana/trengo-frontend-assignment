@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Inbox",
+        "items": [],
+        "isActive": false
+    },
+    {
+        "title": "Personal",
+        "items": [],
+        "isActive": false
+    },
+    {
+        "title": "Teams",
+        "items": [
+            {
+                "name": "Team 1",
+                "icon": "Users"
+            },
+            {
+                "name": "Team 2",
+                "icon": "Users"
+            }
+        ],
+        "isActive": false
+    },
+    {
+        "title": "Channels",
+        "items": [
+            {
+                "name": "support@trengo.com",
+                "icon": "Mail"
+            },
+            {
+                "name": "team@trengo.com",
+                "icon": "Mail"
+            },
+            {
+                "name": "Call center 010",
+                "icon": "Phone"
+            },
+            {
+                "name": "WhatsApp Business NL",
+                "icon": "MessageCircle"
+            }
+        ],
+        "isActive": true
+    },
+    {
+        "title": "Views",
+        "items": [],
+        "isActive": false
+    },
+    {
+        "title": "Labels",
+        "items": [],
+        "isActive": false
+    },
+    {
+        "title": "Users",
+        "items": [],
+        "isActive": false
+    }
+]
