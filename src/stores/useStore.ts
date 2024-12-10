@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import type { SidebarItem, Item } from "../types/types";
-import { loadSidebar } from '../services/dataService';
+import { loadSidebar } from "../services/dataService";
 
 
 export const useStore = defineStore("channel", {
@@ -14,7 +14,7 @@ export const useStore = defineStore("channel", {
     },
     getSidebarItemsByTitle: (state) => (title: string) => {
       return state.sidebar.find(item => item.title === title)?.items;
-    }
+    },
   },
 
   actions: {
